@@ -19,7 +19,6 @@
     <?php
         if (isset($_POST["country"])) {
             $_SESSION["country"] = $_POST["country"];
-            echo $_SESSION["country"];
         }
     ?>
 </body>
